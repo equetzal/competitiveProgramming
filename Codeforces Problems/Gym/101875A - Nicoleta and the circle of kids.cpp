@@ -1,4 +1,4 @@
-//CF Gym 101875A - Nicoleta and the circle of kids
+//Nicoleta and the circle of kids - CF Gym 101875A
 
 #include <bits/stdc++.h>
  
