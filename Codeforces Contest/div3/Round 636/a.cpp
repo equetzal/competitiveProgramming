@@ -9,7 +9,6 @@ using namespace std;
 
 typedef long long int lli;
 
-
 int main(){
 	int t; cin >> t;
 	while(t--){
