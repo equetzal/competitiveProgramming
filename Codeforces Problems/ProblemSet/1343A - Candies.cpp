@@ -2,12 +2,12 @@
 
 #include <bits/stdc++.h>
 
+#define fast_io ios_base::sync_with_stdio(false);cin.tie(NULL);
+#define endl "\n"
+
 using namespace std;
 
-#define endl "\n"
 typedef long long int lli;
-
-#define fast_io ios_base::sync_with_stdio(false);cin.tie(NULL);
 
 int main(){
 	int t; cin >> t;

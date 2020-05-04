@@ -9,7 +9,6 @@ using namespace std;
 
 typedef long long int lli;
 
-
 int main(){
 	int t; cin >> t;
 	while(t--){
@@ -26,5 +25,6 @@ int main(){
 			cout << 2*(n/2)-1+(n/2) << endl;
 		}
 	}
+	
 	return 0;
 }
