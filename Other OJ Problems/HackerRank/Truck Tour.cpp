@@ -1,4 +1,4 @@
-//HR truck-tour
+//HR Truck Tour
 
 #include <bits/stdc++.h>
 
