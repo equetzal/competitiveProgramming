@@ -14,6 +14,10 @@ output: [['abc', 'bcd'], ['acd', 'bde']]
 
 input: ['abc', 'bcd', 'acd', 'bde', 'cde']
 output: [['abc', 'bcd', 'cde'], ['acd', 'bde']]
+
+input: ['abc', 'yab', 'bcd', 'acd', 'bde'].size()
+abc -> [1,1]
+yab -> ['azazaz', 'aaazzz']
 */
 
 int dif(char a, char b){
