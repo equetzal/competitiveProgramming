@@ -1,7 +1,7 @@
+//CF Gym 101889E - 	Enigma
+
 #include <bits/stdc++.h>
 using namespace std;
-
-
 
 int D,N;
 string s;
