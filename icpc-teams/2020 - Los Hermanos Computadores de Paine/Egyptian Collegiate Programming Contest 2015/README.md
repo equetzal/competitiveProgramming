@@ -8,8 +8,8 @@ Contest: **Egyptian Collegiate Programming Contest** *(ECPC 2015)*
 
 Team: **Los Hermanos Computadores de Paine**
 Members:
-	- [Enya Quetzalli](https://github.com/equetzal/)
-	- [Alberto Silva](https://github.com/albertosilva123)
-	- [Ulises Reyes](https://github.com/shadowmimo)
+- [Enya Quetzalli](https://github.com/equetzal/)
+- [Alberto Silva](https://github.com/albertosilva123)
+- [Ulises Reyes](https://github.com/shadowmimo)
 Couch:
-	- [Cesar Hernández](https://github.com/Rasec09) 
+- [Cesar Hernández](https://github.com/Rasec09) 

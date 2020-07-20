@@ -1,5 +1,6 @@
 # 2020 Training Quarentine - Club de Algoritmia
 ## Team Contest 01 
+[Solutions](https://github.com/equetzal/competitiveProgramming/tree/master/Cuarentena%20de%20Entrenamiento%202020/team01)
 
 Contest: **Egyptian Collegiate Programming Contest** *(ECPC 2015)*
 [Problems](https://codeforces.com/gym/100814)
@@ -7,9 +8,8 @@ Contest: **Egyptian Collegiate Programming Contest** *(ECPC 2015)*
 
 Team: **Los Hermanos Computadores de Paine**
 Members:
-	- [Enya Quetzalli](https://github.com/equetzal/)
-	- [Alberto Silva](https://github.com/albertosilva123)
-	- [Ulises Reyes](https://github.com/shadowmimo)
+- [Enya Quetzalli](https://github.com/equetzal/)
+- [Alberto Silva](https://github.com/albertosilva123)
+- [Ulises Reyes](https://github.com/shadowmimo)
 Couch:
-	- [Cesar Hernández](https://github.com/Rasec09) 
-
+- [Cesar Hernández](https://github.com/Rasec09)
