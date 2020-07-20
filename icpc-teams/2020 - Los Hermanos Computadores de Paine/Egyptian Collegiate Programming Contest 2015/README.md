@@ -3,8 +3,8 @@
 [Solutions](https://github.com/equetzal/competitiveProgramming/tree/master/Cuarentena%20de%20Entrenamiento%202020/team01)
 
 Contest: **Egyptian Collegiate Programming Contest** *(ECPC 2015)*
-[Problems](https://codeforces.com/gym/100814)
-[Editorial](https://codeforces.com/blog/entry/21567)
+- [Problems](https://codeforces.com/gym/100814)
+- [Editorial](https://codeforces.com/blog/entry/21567)
 
 Team: **Los Hermanos Computadores de Paine**
 Members:
