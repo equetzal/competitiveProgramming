@@ -16,41 +16,43 @@
 using namespace std;
 
 class ordered_set{
-  unordered_map<long long int,list<long long int>::iterator> pos;
-  list<long long int> values;
+  private:
+	  unordered_map<long long int,list<long long int>::iterator> pos;
+	  list<long long int> values;
 
-  ordered_set(){
-  }
+  public:
+	  ordered_set(){
+	  }
 
-  void add(long long int val){
-    if(pos.count(val) < 1){
-      values.push_back(val);
-      auto it = values.end();
-      it--;
-      pos[val] = it;
-    }
-    return;
-  }
+	  void add(long long int val){
+	    if(pos.count(val) < 1){
+	      values.push_back(val);
+	      auto it = values.end();
+	      it--;
+	      pos[val] = it;
+	    }
+	    return;
+	  }
 
-  void remove(long long int val){
-    if(pos.count(val) > 0){
-      values.erase(pos[val]);
-      pos.erase(val);
-    }
-    return;
-  }
+	  void remove(long long int val){
+	    if(pos.count(val) > 0){
+	      values.erase(pos[val]);
+	      pos.erase(val);
+	    }
+	    return;
+	  }
 
-  long long int count(long long int val){
-    return pos.count(val);
-  }
+	  long long int count(long long int val){
+	    return pos.count(val);
+	  }
 
-  vector<long long int> toArray(){
-    vector<long long int> ans;
-    for(auto it=values.begin(); it != values.end(); it++){
-      ans.push_back(*it);
-    }
-    return ans;
-  }
+	  vector<long long int> toArray(){
+	    vector<long long int> ans;
+	    for(auto it=values.begin(); it != values.end(); it++){
+	      ans.push_back(*it);
+	    }
+	    return ans;
+	  }
 };
 
 int main(){
@@ -71,4 +73,61 @@ int main(){
 		cout << i << " ";
 	cout << endl;
 
+}
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+class ordered_set {
+ private:
+  unordered_map<long long int, list<long long int>::iterator> pos;
+  list<long long int> values;
+
+ public:
+  ordered_set() {}
+
+  void add(long long int val) {
+    if (pos.count(val) < 1) {
+      values.push_back(val);
+      auto it = values.end();
+      pos[val] = --it;
+    }
+    return;
+  }
+
+  void remove(long long int val) {
+    if (pos.count(val) > 0) {
+      values.erase(pos[val]);
+      pos.erase(val);
+    }
+    return;
+  }
+
+  long long int count(long long int val) { return pos.count(val); }
+
+  vector<long long int> toArray() {
+    vector<long long int> ans;
+    for (auto it = values.begin(); it != values.end(); it++) {
+      ans.push_back(*it);
+    }
+    return ans;
+  }
+};
+
+int main() {
+  ordered_set theSet();
+  theSet.add(1);
+  theSet.add(8);
+  theSet.add(3);
+  theSet.add(5);
+  auto v = theSet.toArray();
+  for (auto i : v) cout << i << " ";
+  cout << endl;
+
+  theSet.remove(3);
+  theSet.add(3);
+  v = theSet.toArray();
+  for (auto i : v) cout << i << " ";
+  cout << endl;
 }
